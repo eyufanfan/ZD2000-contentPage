@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+
+.tab1 .container {
+	margin: 50px auto;
+}
+.tab1 .container a {
+	display: block;
+	margin: auto;
+	width: 160px;
+	height: 160px;
+}
+.tab1 .container a:hover {
+	border: 5px solid #272833;
+	border-radius: 4px;
+}
+.tab1 .container p {
+	font-size: 18px;
+	font-weight: 100;
+	text-align: center;
+	letter-spacing: 1px;
+	color: #272833;
+	padding: 20px 0;
+}
+
+.tab2 h2, .tab3 h2 {
+	font-size: 25px;
+	text-align: center;
+	letter-spacing: 1px;
+	color: #272833;
+	padding: 0 0 20px 0;
+}
+.tab2 table tbody td, .tab3 table tbody td {
+	font-size: 15px;
+	letter-spacing: 1px;
+	color: #414448;
+} 
+.tab2 table thead td, .tab3 table thead td {
+	font-weight: 300;
+	font-size: 18px;
+}
+.tab2 table tbody td a, .tab3 table tbody td a {
+	font-size: 15px;
+	letter-spacing: 1px;
+	color: #2a80b9;
+}
+.tab2 table tbody td a:hover, .tab3 table tbody td a:hover {
+	color: #272833;
+	text-decoration: none;
+}
+
+/* 小屏幕（平板，大于等于768px） */
+@media (min-width: 768px) {
+	.tab2 h2, .tab3 h2{
+		font-size: 26px;
+	}
+	.tab2 table tbody td， .tab3 table tbody td  {
+		font-size: 16px;
+	}
+	
+}
+
+/* 中等屏幕（桌面显示器，大于等于992px） */
+@media (min-width: 992px) {
+	.tab2 h2, .tab3 h2 {
+		font-size: 28px;
+	}
+	.tab2 table tbody td， .tab3 table tbody td  {
+		font-size: 17px;
+	}
+}
+
+/* 大屏幕（大桌面显示器，大于等于1200px） */
+@media (min-width: 1200px) {
+	.tab2 h2, .tab3 h2 {
+		font-size: 30px;
+	}
+	.tab2 table tbody td， .tab3 table tbody td  {
+		font-size: 18px;
+	}
+}

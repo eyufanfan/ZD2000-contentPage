@@ -1,0 +1,248 @@
+@charset "utf-8";
+
+
+
+
+.tab-h2 {
+	font-size: 25px;
+	text-align: center;
+	letter-spacing: 1px;
+	color: #0059b2;
+}
+.tab-p {
+	font-size: 15px;
+	text-align: center;
+	letter-spacing: 1px;
+	color: #999;
+	margin: 20px 0 40px 0;
+}
+/*#contents{
+	 width:960px; 
+	 min-height:180px; 
+	 margin: 0 auto;}
+.box{ 
+	position:relative; 
+	width:150px;
+	height:180px; 
+	margin:20px; 
+	float:left; 
+	font-size:18px; 
+	text-align:center;}
+.box em{ 
+	display:block; 
+	width:150px; 
+	height:150px; 
+	float:left;}
+.box .details{ 
+	position:absolute; 
+	width:480px; 
+	height:180px; 
+	color:#fff; 
+	text-align:left; 
+	z-index:5; 
+	font-size:15px; 
+	border-radius:4px; 
+	display:none;}
+.details h3{ 
+	font-size:15px; 
+	margin-left:15px; 
+	margin-top:5px; }
+.details p{ 
+	line-height:30px;
+	margin-left:15px;}
+.box .details.dgl{ 
+	left:150px; 
+	top:0px;
+	background-color:#446cb2;}
+.box .details.dtl{ 
+	left:150px; top:0px; background-color:#2fcc71;}
+.box .details.dsz{ left:-165px; top:180px;background-color:#f7cd71;}
+.box .details.dsl{ right:150px; top:0px;background-color:#e84c3d;}
+.box .details.ddz{ right:150px; top:0px;background-color:#0f355a;}
+.left-tri{ position:absolute; left:-12px; top:12px; border-style:solid dashed dashed dotted;border-width:6px;
+	      display:block;
+}
+.right-tri{ position:absolute; right:-12px; top:12px; border-style:solid dashed dashed dotted;border-width:6px;
+	      display:block;
+}
+.top-tri{ position:absolute; right:236px; top:-12px; border-style:solid dashed dashed dotted;border-width:6px;
+	      display:block;
+}
+.left-tri.tgl{ border-color:transparent #446cb2 transparent transparent;}
+.left-tri.ttl{ border-color:transparent #2fcc71 transparent transparent;}
+.top-tri.tsz{border-color: transparent transparent #f7cd71 transparent;}
+.right-tri.tdz{border-color:transparent transparent transparent #0f355a;}
+.right-tri.tsl{border-color:transparent transparent transparent #e84c3d;}*/
+/*.gl{ background:url(../images/d-images/default-icon-cs.jpg) no-repeat 0px 0px;}
+.gl:hover{ background:url(../images/d-images/default-icon-cs.jpg) no-repeat 0px -150px;}
+.tl{ background:url(../images/d-images/default-icon-cs.jpg) no-repeat 0px -300px;}
+.tl:hover{ background:url(../images/d-images/default-icon-cs.jpg) no-repeat 0px -450px;}
+.sz{ background:url(../images/d-images/default-icon-cs.jpg) no-repeat 0px -600px;}
+.sz:hover{ background:url(../images/d-images/default-icon-cs.jpg) no-repeat 0px -750px;}
+.sl{ background:url(../images/d-images/default-icon-cs.jpg) no-repeat 0px -900px;}
+.sl:hover{ background:url(../images/d-images/default-icon-cs.jpg) no-repeat 0px -1050px;}
+.dz{ background:url(../images/d-images/default-icon-cs.jpg) no-repeat 0px -1200px;}
+.dz:hover{ background:url(../images/d-images/default-icon-cs.jpg) no-repeat 0px -1350px;}
+*/
+/*.box.gl:hover{ background-color:#44c6b2; color:#f1f1f1;}
+.details .link{ position:absolute;right:25px;bottom:10px;display:block; width:100px; height:28px; border:1px solid #fff; color:#fff; text-align:center;  }
+.details .link:hover{ background:#fff; color:#555;}*/
+
+.tab1 {
+	margin: 30px 0;
+	color: #666;
+}
+.tab1 .text-muted {
+	color: #999;
+}
+.tab1 .media-body p a {
+	display: block;
+	width: 70px;
+	height: 30px;
+	border: 1px solid #f0f0f0;
+	border-radius: 4px;
+	line-height:30px;
+	text-align: center;
+	color: #fff;
+	background: #2d3134;
+}
+.tab1 p a:hover {
+	background: #2fcc71;
+	text-decoration: none;
+}
+.tab1 .media-heading {
+	margin: 5px 0 20px 0;
+}
+.tab1 .col {
+	padding: 20px;
+}
+
+.tab2 {
+	background: #272833;
+}
+.tab2 .container {
+	width: 90%;
+	margin: 0 auto;
+}
+.tab2 h2 {
+	font-size: 25px;
+	text-align: center;
+	letter-spacing: 1px;
+	color: #fff;
+	padding: 20px 0;
+}
+.tab2 p {
+	font-size: 15px;
+	font-weight: 100;
+	text-align: center;
+	letter-spacing: 1px;
+	color: #fff;
+} 
+.tab3 {
+	margin: 0;
+	padding: 0;
+}
+.tab3 h2, .tab4 h2 {
+	font-size: 25px;
+	text-align: center;
+	letter-spacing: 1px;
+	color: #272833;
+	padding: 20px 0;
+}
+.tab3 .container p, .tab4 table tbody td {
+	font-size: 15px;
+	letter-spacing: 1px;
+	color: #414448;
+} 
+.tab4 table thead td {
+	font-weight: 300;
+	font-size: 18px;
+}
+
+
+.tab5 {
+	margin: 30px 0;
+}
+.tab5 .container .row .box {
+	text-align: center;
+	padding: 30px 0;
+}
+.tab5 h2 {
+	font-size: 25px;
+	text-align: center;
+	letter-spacing: 1px;
+	color: #272833;
+	padding: 20px 0;
+}
+.tab5 p {
+	font-size: 22px;
+	letter-spacing: 1px;
+	color: #414448;
+	padding: 30px 0 0 0;
+}
+.tab5 .mini-page { 
+	overflow:hidden; 
+    cursor:pointer;
+}
+.tab5 .mini-page img {
+	border:5px solid #272833;
+}
+.tab5 .mini-page .hidden-layer { 
+	position:absolute;
+	left:0px; 
+	top:0px; 
+	width:100%; 
+	height:100%; 
+	background-color:#000;
+	color:#fff; 
+	opacity:0; 
+	border: 5px solid #f8f8f8;
+	/*border-radius: 50%;
+	margin: 23px 0 0 82px;*/
+}
+.tab5 .mini-page .hidden-layer a { 
+	position:absolute;
+	left: 40%;
+	top: 45%;
+	padding: 2px 2px;
+    border:1px solid #fff; 
+    border-radius: 4px;
+    text-align:center; 
+    color:#fff;
+    font-size: 18px;
+ }
+
+
+
+/*没有小于768px，是因为Bootstrap3以移动端优先设计*/
+
+/* 小屏幕（平板，大于等于768px） */
+@media (min-width: 768px) {
+	.tab-h2, .tab2 h2, .tab3 h2{
+		font-size: 26px;
+	}
+	.tab-p, .tab2 p, .tab3 p, .tab4 table tbody td  {
+		font-size: 16px;
+	}
+	
+}
+
+/* 中等屏幕（桌面显示器，大于等于992px） */
+@media (min-width: 992px) {
+	.tab-h2, .tab2 h2, .tab3 h2 {
+		font-size: 28px;
+	}
+	.tab-p, .tab2 p, .tab3 p, .tab4 table tbody td  {
+		font-size: 17px;
+	}
+}
+
+/* 大屏幕（大桌面显示器，大于等于1200px） */
+@media (min-width: 1200px) {
+	.tab-h2, .tab2 h2, .tab3 h2 {
+		font-size: 30px;
+	}
+	.tab-p, .tab2 p, .tab3 p, .tab4 table tbody td  {
+		font-size: 18px;
+	}
+}

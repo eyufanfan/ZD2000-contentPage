@@ -1,0 +1,103 @@
+@charset "utf-8";
+
+
+.tab1 h2 {
+	font-size: 25px;
+	text-align: center;
+	letter-spacing: 1px;
+	color: #272833;
+	padding: 20px 0;
+}
+.tab1 table tbody td {
+	font-size: 15px;
+	letter-spacing: 1px;
+	color: #414448;
+} 
+.tab1 table thead td {
+	font-weight: 300;
+	font-size: 18px;
+}
+
+.tab5 {
+	margin: 30px 0;
+}
+.tab5 .container .row .box {
+	text-align: center;
+	padding: 30px 0;
+}
+.tab5 h2 {
+	font-size: 25px;
+	text-align: center;
+	letter-spacing: 1px;
+	color: #272833;
+	padding: 20px 0;
+}
+.tab5 p {
+	font-size: 22px;
+	letter-spacing: 1px;
+	color: #414448;
+	padding: 30px 0 0 0;
+}
+.tab5 .mini-page { 
+	overflow:hidden; 
+    cursor:pointer;
+}
+.tab5 .mini-page img {
+	border:5px solid #272833;
+}
+.tab5 .mini-page .hidden-layer { 
+	position:absolute;
+	left:0px; 
+	top:0px; 
+	width:100%; 
+	height:100%; 
+	background-color:#000;
+	color:#fff; 
+	opacity:0; 
+	border: 5px solid #f8f8f8;
+	/*border-radius: 50%;
+	margin: 23px 0 0 82px;*/
+}
+.tab5 .mini-page .hidden-layer a { 
+	position:absolute;
+	left: 40%;
+	top: 45%;
+	padding: 2px 2px;
+    border:1px solid #fff; 
+    border-radius: 4px;
+    text-align:center; 
+    color:#fff;
+    font-size: 18px;
+ }
+
+
+/* 小屏幕（平板，大于等于768px） */
+@media (min-width: 768px) {
+	.tab1 h2{
+		font-size: 26px;
+	}
+	.tab1 table tbody td  {
+		font-size: 16px;
+	}
+	
+}
+
+/* 中等屏幕（桌面显示器，大于等于992px） */
+@media (min-width: 992px) {
+	.tab1 h2 {
+		font-size: 28px;
+	}
+	.tab1 table tbody td  {
+		font-size: 17px;
+	}
+}
+
+/* 大屏幕（大桌面显示器，大于等于1200px） */
+@media (min-width: 1200px) {
+	.tab1 h2 {
+		font-size: 30px;
+	}
+	.tab1 table tbody td  {
+		font-size: 18px;
+	}
+}

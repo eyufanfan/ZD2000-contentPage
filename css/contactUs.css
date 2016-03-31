@@ -1,0 +1,147 @@
+@charset "utf-8";
+
+.tab1 {
+	padding: 20px 0;
+}
+.tab1 h2 {
+	font-size: 25px;
+	text-align: center;
+	letter-spacing: 1px;
+	color: #272833;
+	padding: 20px 0;
+}
+.tab1 .container .row .phone {
+	background: #2A80B9;
+}
+.tab1 ul {
+	font-size: 15px;
+	text-align: left;
+	color: #fff;
+	padding:20px 0 20px 20px;
+}
+.tab1 ul li {
+	padding-left:34px;
+	background: url(../images/d-images/icon-phone.png) no-repeat;
+}
+.tab1 ul li, .tab2 ul li {
+    list-style:none;
+}
+.tab2 .container {
+	padding: 20px 0;
+}
+.tab2 ul {
+	font-size: 15px;
+	text-align: left;
+	padding:20px 0 20px 40px;
+	color: #555;
+}
+.tab2 .container .row .address {
+	background: #32CC76;
+	padding-bottom: 20px;
+}
+.tab2 .container a {
+	display: block;
+	color: #fff;
+	padding-left:30px;
+	background: url(../images/d-images/icon-address.png) no-repeat;
+}
+.tab2 .container a:hover {
+	color:#000;
+	text-decoration: none;
+}
+
+.tab3 h2 {
+	font-size: 25px;
+	text-align: center;
+	letter-spacing: 1px;
+	color: #272833;
+	padding: 0 0 20px 0;
+}
+.tab3 table tbody td {
+	font-size: 15px;
+	letter-spacing: 1px;
+	color: #414448;
+} 
+.tab3 table thead td {
+	font-weight: 300;
+	font-size: 18px;
+}
+
+
+
+#map-box { 
+	position:relative; 
+	width:100%; 
+	height:480px; 
+	padding-top:10px;
+	padding-bottom:10px; 
+	background-color:#111; 
+	display:none;
+}
+#map-box .close { 
+	display:block; 
+	position:absolute;
+	right:0px; 
+	top:0px;  
+	width:30px; 
+	height:30px;   
+    background:url(../images/d-images/defaul-css-25.png) no-repeat center -120px; 
+    cursor:pointer; 
+}     
+#map-box .map { 
+	width:960px; 
+	height:480px;
+	margin:0px auto; 
+	background-color:#fff;
+} 
+
+/* 小屏幕（平板，大于等于768px） */
+@media (min-width: 768px) {
+	.tab1 h2, .tab3 h2 {
+		font-size: 26px;
+	}
+	.tab1 ul, .tab2 ul, .tab3 table tbody td  {
+		font-size: 16px;
+	}
+	.tab2 ul {
+		padding:20px 0 0 100px;
+	}
+}
+
+/* 中等屏幕（桌面显示器，大于等于992px） */
+@media (min-width: 992px) {
+	.tab1 h2, .tab3 h2 {
+		font-size: 28px;
+	}
+	.tab1 ul, .tab2 ul, .tab3 table tbody td  {
+		font-size: 17px;
+	}
+	.tab2 .container .row .icon-address {
+		float: right;
+	}
+	.tab2 .container .row .address {
+		float: left;
+	}
+	.tab2 ul {
+		padding:20px 0 0 150px;
+	}
+}
+
+/* 大屏幕（大桌面显示器，大于等于1200px） */
+@media (min-width: 1200px) {
+	.tab1 h2, .tab3 h2 {
+		font-size: 30px;
+	}
+	.tab1 ul, .tab2 ul, .tab3 table tbody td  {
+		font-size: 18px;
+	}
+	.tab2 .container .row .icon-address {
+		float: right;
+	}
+	.tab2 .container .row .address {
+		float: left;
+	}
+	.tab2 ul {
+		padding:20px 0 0 200px;
+	}
+}
